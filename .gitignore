@@ -1,0 +1,39 @@
+# Variaveis de ambiente e segredos locais
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.secret
+*.secrets
+secrets.*
+credentials.json
+service-account*.json
+
+# Chaves privadas e certificados
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+
+# Credenciais de provedores e ferramentas
+.aws/
+.azure/
+.config/gcloud/
+.kube/config
+.npmrc
+.pypirc
+pip.conf
+
+# Configuracoes locais do editor/IDE
+.spyproject/
+.idea/
+.vscode/settings.json
+.vscode/launch.json
+
+# Dados locais grandes
+1_introducao_pandas/data/samp-2025.csv
