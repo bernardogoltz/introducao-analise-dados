@@ -2,7 +2,12 @@
 
 Estes passos são na sua máquina. O ambiente do `uv` fica só com você e não entra no GitHub.
 
-## Instalar o GitHub CLI
+1. [Instalar o GitHub CLI](#1-instalar-o-github-cli)
+2. [Clonar o repositório](#2-clonar-o-repositório)
+3. [Instalar o uv](#3-instalar-o-uv)
+4. [Rodar os notebooks](#4-rodar-os-notebooks)
+
+## 1. Instalar o GitHub CLI
 
 O `gh` é a linha de comando do GitHub. Abra um terminal novo depois de instalar.
 
@@ -34,7 +39,7 @@ sudo apt install gh
 
 Outras distribuições: [instalação do GitHub CLI](https://github.com/cli/cli/blob/trunk/docs/install_linux.md).
 
-## Clonar o repositório
+## 2. Clonar o repositório
 
 Entre na conta:
 
@@ -53,7 +58,7 @@ cd introducao-analise-dados
 
 O endereço do repositório é [github.com/bernardogoltz/introducao-analise-dados](https://github.com/bernardogoltz/introducao-analise-dados).
 
-## Instalar o uv
+## 3. Instalar o uv
 
 ### Linux e macOS
 
@@ -69,7 +74,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 
 Feche e abra o terminal para o comando `uv` valer.
 
-## Rodar os notebooks
+## 4. Rodar os notebooks
 
 Dentro do repositório clonado, crie um ambiente do zero e abra o Jupyter Lab na pasta da aula:
 
