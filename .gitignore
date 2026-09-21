@@ -35,5 +35,10 @@ pip.conf
 .vscode/settings.json
 .vscode/launch.json
 
+# Ambiente local do uv. Cada aluno cria o proprio .venv.
+.venv/
+uv.lock
+.python-version
+
 # Dados locais grandes
 1_introducao_pandas/data/samp-2025.csv
