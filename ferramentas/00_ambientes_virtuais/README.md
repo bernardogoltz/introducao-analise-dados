@@ -1,5 +1,7 @@
 # Ambiente virtual
 
+Parte do curso [Introdução à análise de dados](../../README.md). Outras ferramentas e as colas de comandos estão em [Ferramentas](../README.md).
+
 Um ambiente virtual guarda os pacotes do projeto numa pasta `.venv`, separado do Python do sistema.
 
 ## Instalar o uv

@@ -1,5 +1,7 @@
 # Git
 
+Parte do curso [Introdução à análise de dados](../../README.md). Outras ferramentas e as colas de comandos estão em [Ferramentas](../README.md).
+
 O Git guarda o histórico do projeto. Cada mudança registrada vira um commit, e o GitHub é o lugar onde essa cópia fica na internet.
 
 ## Conceitos
